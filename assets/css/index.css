@@ -1040,7 +1040,7 @@ color: #FFFFFF;
 }
 
   /* Tablet (768px to 991px) */
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 1222px) {
     *{
         margin: 0;
         padding: 0;
