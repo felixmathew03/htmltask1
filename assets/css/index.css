@@ -700,7 +700,7 @@ color: #FFFFFF;
     font-weight: 500;   
     width: 15%;
 }
-@media (max-width:376px) {
+@media (max-width:429px) {
     .header{
         height: 30vh;
         position: relative;
@@ -1053,7 +1053,7 @@ color: #FFFFFF;
         font-size: 8px;
     }
 }
-@media (min-width:377px) and (max-width: 767px) {
+@media (min-width:430px) and (max-width: 767px) {
     .header{
         height: 30vh;
         position: relative;
