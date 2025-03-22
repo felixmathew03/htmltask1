@@ -191,7 +191,15 @@ color: #EC6754;
     background-size: cover;
     border-radius: 15px;
 }
+.topi,.topii,.bottomi,.bottomii,.dtop,.dmidl,.dmidrt,.dmidrb,.dbot{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end; 
+}
 .topi{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end; 
     background-image: url('../images/makeup.png');
 }
 .bottomi{
@@ -204,10 +212,13 @@ color: #EC6754;
     background-image: url('../images/googledeepmind.png');
 }
 .mmm p{
-    width: 90%;
-    font: normal normal normal 36px/48px Arial Rounded MT Bold;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-arial-rounded-mt-bold);
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
+    margin-left: 1%;
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: 0px 9px 18px #000000ec;
 }
 
 .bottomi,.bottomii{
@@ -805,7 +816,7 @@ color: #FFFFFF;
         border-radius: 8px;
     }
     .mmm p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .howwework{
         height: 140vh;
