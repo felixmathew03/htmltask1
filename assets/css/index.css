@@ -808,7 +808,7 @@ color: #FFFFFF;
     }
     .waves2{
         position: absolute;
-        bottom: 5%;
+        bottom: -5%;
         object-fit: contain;
         width: 100%;
     }
@@ -1063,7 +1063,7 @@ color: #FFFFFF;
         position: relative;
     }
     .logo{
-        width: 80px;
+        width: 70px;
     }
     .threedots{
         padding: 5px;
@@ -1140,7 +1140,7 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -25.2%;
+        top: -26.3%;
         left: 23%;
         width: 80px;
         object-fit: contain;
@@ -1161,7 +1161,7 @@ color: #FFFFFF;
     }
     .waves2{
         position: absolute;
-        bottom: 5%;
+        bottom: -5%;
         object-fit: contain;
         width: 100%;
     }
@@ -1425,6 +1425,16 @@ color: #FFFFFF;
         background-repeat: no-repeat;
         position: relative;
     }
+    .threedots{
+        right: 3%;
+        top: 3%;
+        padding: 10px 8px;
+    }
+    .line{
+        width: 25px;
+        border-bottom: 2px solid gray;
+        margin-bottom: 3px;
+    }
     .branding{
         width: 100%;
         height: 50vh;  
@@ -1475,9 +1485,9 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -55%;
+        top: -51%;
         left: 23%;
-        width: 250px;
+        width: 200px;
         object-fit: contain;
     }
     .bottomi,.bottomii{
@@ -1519,7 +1529,7 @@ color: #FFFFFF;
     .howwework{
         margin-top: 10%;
         width: 100%;
-        height: 85vh;
+        height: 90vh;
         background-image: none;
         background-color: #000000;
         position: relative;
@@ -1542,7 +1552,7 @@ color: #FFFFFF;
     .second,.fourth,.sixth{
         position: absolute;
         right: 10%;
-        top: 20%;
+        top: 23%;
         width: 80%;
         height: 150px;
         display: flex;
@@ -1550,20 +1560,20 @@ color: #FFFFFF;
         align-items: center;
     }
     .third{
-        top: 35%;
+        top: 38%;
     }
     .fourth{
-        top: 50%;
+        top: 53%;
     }
     .fifth{
-        top: 65%;
+        top: 68%;
     }
     .sixth{
-        top: 79%;
+        top: 82%;
     }
     .creative{
         width: 100%;
-        height: 35vh;
+        height: 38vh;
         background: #262626 0% 0% no-repeat padding-box;
     }
     .creads{
@@ -1590,7 +1600,7 @@ color: #FFFFFF;
     }
     .client{
         width: 100%;
-        height: 35vh;
+        height: 40vh;
         background: #151515 0% 0% no-repeat padding-box;
     }
     .client h2{
@@ -1614,7 +1624,7 @@ color: #FFFFFF;
         gap: 5px;
     }
     .readyto{
-        height: 40vh;
+        height: 45vh;
         justify-content: center;
     }
     .readytol{
@@ -1630,7 +1640,7 @@ color: #FFFFFF;
         width:80%;
     }
     .readytor button{
-        margin-top: 1%;
+        margin-top: 3%;
     }
     .readyde h1{
         font-size: 25px;
@@ -1673,8 +1683,8 @@ color: #FFFFFF;
         flex-wrap: wrap;
     }
     .adtriozimg{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         border-radius: 15px;
     }
     .footer{
@@ -1759,9 +1769,9 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -75%;
+        top: -73%;
         left: 23%;
-        width: 250px;
+        width: 220px;
         object-fit: contain;
     }
     .mountains {
@@ -1770,7 +1780,7 @@ color: #FFFFFF;
     }
     .waves2{
         position: absolute;
-        bottom: -1%;
+        bottom: -8%;
         object-fit: contain;
         width: 100%;
     }
