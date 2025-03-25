@@ -162,7 +162,7 @@ body{
 }
 .branding{
     width: 100%;
-    height: 150vh;  
+    height: 130vh;  
     background-color: black;
     position: relative;
     overflow: hidden;
@@ -596,6 +596,7 @@ color: #FFFFFF;
 .cldes,.cldess{
     width: 40%;
 }
+
 .cldes p,.cldess p{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 33px/var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
     color: #e2e1e1;
@@ -610,6 +611,9 @@ color: #FFFFFF;
 }
 .cldess p,.cliinfo p,.cliinfoo h3{
     color: #6d6d6d;
+}
+.client p,.client h3{
+    font-size: 1.5em;
 }
 .cliborder{
     margin: 5% 0 0 2%;
@@ -680,6 +684,7 @@ color: #FFFFFF;
     background-image: url('../images/manwithlap.png');
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .fcontent{
     width: 50%;
@@ -800,13 +805,13 @@ color: #FFFFFF;
 .readytor p{
     width:60%;
     font: var(--unnamed-font-style-normal) normal  var(--unnamed-font-size-23)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-poppins);
-    font-size: 14px;
+    font-size: 1.2em;
     color: white;
     font-weight: 100;
 }
 .readydetails{
     width: 90%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 3px solid white;
 }
 .readyde{
@@ -871,6 +876,20 @@ color: #FFFFFF;
         width: 12px;
         border-bottom: 2px solid gray;
         margin-bottom: 1px;
+    }
+    .twolines{
+        padding: 5px;
+    }
+    .tline{
+        width: 12px;
+        border-bottom: 2px solid gray;  
+    }
+    .navmenu{
+        width: 75%;
+        top: 10%;
+    }
+    .navmenus{
+        font-size: 0.6em;
     }
     .branding{
         width: 100%;
@@ -939,9 +958,9 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -32.8%;
+        top: -47%;
         left: 23%;
-        width: 80px;
+        width: 9em;
         object-fit: contain;
     }
     .mountains {
@@ -954,9 +973,9 @@ color: #FFFFFF;
     }
     .mountains h1{
         bottom: -2%;
-        left: 10%;
+        left: 14%;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-family-arial-rounded-mt-bold);
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .waves2{
         position: absolute;
@@ -1070,7 +1089,7 @@ color: #FFFFFF;
     }
     .client{
         width: 100%;
-        height: 60vh;
+        height: 52vh;
         background: #151515 0% 0% no-repeat padding-box;
     }
     .client h2{
@@ -1096,7 +1115,7 @@ color: #FFFFFF;
         gap: 5px;
     }
     .readyto{
-        height: 70vh;
+        height: 60vh;
         justify-content: center;
     }
     .readytol{
@@ -1118,7 +1137,7 @@ color: #FFFFFF;
         font-size: 12px;
         border-radius: 18px;
         font-weight: 500;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     .readyde{
         width: 100%;
@@ -1306,9 +1325,9 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -26.3%;
+        top: -42%;
         left: 23%;
-        width: 80px;
+        width: 8em;
         object-fit: contain;
     }
     .mountains {
@@ -1320,10 +1339,10 @@ color: #FFFFFF;
         font-size: 12px;
     }
     .mountains h1{
-        bottom: -2%;
-        left: 10%;
+        bottom: 2%;
+        left: 22%;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-family-arial-rounded-mt-bold);
-        font-size: 1em;
+        font-size: 1.4em;
     }
     .waves2{
         position: absolute;
@@ -1529,8 +1548,8 @@ color: #FFFFFF;
         flex-wrap: wrap;
     }
     .adtriozimg{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         border-radius: 15px;
     }
     .footer{
@@ -1576,7 +1595,21 @@ color: #FFFFFF;
         font-size: 8px;
     }
 }
-
+@media (min-width: 401px) and (max-width: 416px) {
+    .branding{
+        height: 60vh;
+    }
+    .elevations img{
+        width: 10em;
+        top: -52.5%;
+    }
+}
+@media (min-width: 401px) and (max-width: 606px) {
+    .mountains h1{
+        left: 20%;
+        font-size: 0.9em;
+    }
+}
   /* Tablet (768px to 991px) */
   @media (min-width: 768px) and (max-width: 991px) {
     *{
@@ -1601,9 +1634,13 @@ color: #FFFFFF;
         border-bottom: 2px solid gray;
         margin-bottom: 3px;
     }
+    .navmenu{
+        width: 60%;
+        top: 10%;
+    }
     .branding{
         width: 100%;
-        height: 50vh;  
+        height: 70vh;  
         background-color: black;
         position: relative;
         overflow: hidden;
@@ -1651,7 +1688,7 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -51%;
+        top: -65%;
         left: 23%;
         width: 200px;
         object-fit: contain;
@@ -1665,12 +1702,9 @@ color: #FFFFFF;
         object-fit: contain;
         width: 100%;
     }
-    .mmm{
-        height: 60%;
-    }
     .mountains {
         background: #262626 0% 0% no-repeat padding-box;
-        height: 80vh;
+        height: 100vh;
     }
     .mountains h1 { 
         bottom: 2.8%;
@@ -1678,11 +1712,14 @@ color: #FFFFFF;
         text-shadow: 0px 9px 18px #00000098;
     }
     .mimages{
-        height: 100%;
+        height: 100vh;
         justify-content: center;
     }
+    .mmm{
+        height:80%;
+    }
     .wavu{
-        display: none;
+        height: 20%;
     }
     .mmm img{
         border-radius: 8px;
@@ -1695,7 +1732,7 @@ color: #FFFFFF;
     .howwework{
         margin-top: 10%;
         width: 100%;
-        height: 90vh;
+        height: 120vh;
         background-image: none;
         background-color: #000000;
         position: relative;
@@ -1739,7 +1776,7 @@ color: #FFFFFF;
     }
     .creative{
         width: 100%;
-        height: 38vh;
+        height: 50vh;
         background: #262626 0% 0% no-repeat padding-box;
     }
     .creads{
@@ -1766,7 +1803,7 @@ color: #FFFFFF;
     }
     .client{
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         background: #151515 0% 0% no-repeat padding-box;
     }
     .client h2{
@@ -1790,7 +1827,7 @@ color: #FFFFFF;
         gap: 5px;
     }
     .readyto{
-        height: 45vh;
+        height: 65vh;
         justify-content: center;
     }
     .readytol{
@@ -1877,6 +1914,12 @@ color: #FFFFFF;
         object-fit: contain;
     }
   }
+  @media (min-width: 767px) and (max-width: 774px) {
+    
+    .adtrioz{
+        height: 50vh;
+    }
+  }
   @media (min-width: 992px) and (max-width: 1199px) {
     .header{
         height: 60vh;
@@ -1885,9 +1928,13 @@ color: #FFFFFF;
         background-repeat: no-repeat;
         position: relative;
     }
+    .navmenu{
+        width: 60%;
+        top: 10%;
+    }
     .branding{
         width: 100%;
-        height: 100vh;  
+        height: 80vh;  
         background-color: black;
         position: relative;
         overflow: hidden;
@@ -1935,7 +1982,7 @@ color: #FFFFFF;
     }
     .elevations img{
         position: absolute;
-        top: -73%;
+        top: -48%;
         left: 23%;
         width: 220px;
         object-fit: contain;
@@ -1946,12 +1993,12 @@ color: #FFFFFF;
     }
     .waves2{
         position: absolute;
-        bottom: -8%;
+        bottom: -6%;
         object-fit: contain;
         width: 100%;
     }
     .mountains h1 { 
-        top: 92%;
+        bottom: 0%;
         font-size: 35px;
         text-shadow: 0px 9px 18px #00000098;
     }
@@ -1970,7 +2017,7 @@ color: #FFFFFF;
     .howwework{
         margin-top: 10%;
         width: 100%;
-        height: 180vh;
+        height: 150vh;
         background-image: none;
         background-color: #000000;
         position: relative;
@@ -2014,7 +2061,7 @@ color: #FFFFFF;
     }
     .creative{
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         background: #262626 0% 0% no-repeat padding-box;
     }
     .creads{
@@ -2040,7 +2087,7 @@ color: #FFFFFF;
     }
     .client{
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         background: #151515 0% 0% no-repeat padding-box;
     }
     .client h2{
@@ -2072,6 +2119,9 @@ color: #FFFFFF;
     }
     .readytor{
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .readytor h1{
         width: 100%;
@@ -2079,8 +2129,15 @@ color: #FFFFFF;
     .readytor p{
         width:80%;
     }
+    .readydetails{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 4%;
+    }
     .readytor button{
-        margin-top: 2%;
+        margin-top: 0%;
     }
     .readyde h1{
         font-size: 25px;
@@ -2123,9 +2180,12 @@ color: #FFFFFF;
         flex-wrap: wrap;
     }
     .adtriozimg{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 15px;
+    }
+    .adtriozhead{
+        font-size: 26px;
     }
     .footer{
         width: 100%;
@@ -2149,5 +2209,88 @@ color: #FFFFFF;
         width: 120px;
         height: 120px;
         object-fit: contain;
+    }
+}
+@media (min-width:1200px) and (max-width:1535px) {
+    .branding{  
+        height:90vh;
+    }
+    .elevations img{
+        top: -51%;
+    }
+    .mountains h1{
+        bottom: 2%;
+    }
+    .client{
+        height: 60vh;
+    }
+    .client p{
+        font-size: 1.5em;
+    }
+    .client h3{
+        font-size: 1.5em;
+    }
+    .readydetails{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 4%;
+    }
+    .readytor p{
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .readyde{
+        width: 100%;
+    }
+    .readyde .name{
+        width: 47%;
+    }
+    .readyde .from{
+        width: 28%;
+    }
+    
+    .readyde .eaddr{
+        width: 54%;
+    }
+    .readyde .message{
+        width: 53%;
+    }
+    .border2{
+        width: 70%;
+    }
+    .border1{
+        width: 51%;
+    }
+    .border4{
+        width: 46%;
+    }
+    .border3{
+        width: 43%;
+    }
+    .adtriozimgs{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+    .adtriozimg{
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .adtriozhead{
+        font-size: 26px;
+    }
+}
+@media (min-width:1536px) {
+    .branding{
+        height: 110vh;
+    }
+    .elevations img{
+        width: 18em;
+        top: -53%;
     }
 }
