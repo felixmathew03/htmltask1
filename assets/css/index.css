@@ -251,9 +251,9 @@ body{
 }
 .child{
     position: absolute;
-    top: -64%;
+    top: -51.5%;
     left: 23%;
-    width: 350px;
+    width: 22em;
     object-fit: contain;
 }
 .mountains{
@@ -611,9 +611,6 @@ color: #FFFFFF;
 }
 .cldess p,.cliinfo p,.cliinfoo h3{
     color: #6d6d6d;
-}
-.client p,.client h3{
-    font-size: 1.5em;
 }
 .cliborder{
     margin: 5% 0 0 2%;
@@ -1456,7 +1453,7 @@ color: #FFFFFF;
     }
     .client{
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         background: #151515 0% 0% no-repeat padding-box;
     }
     .client h2{
@@ -2283,14 +2280,5 @@ color: #FFFFFF;
     }
     .adtriozhead{
         font-size: 26px;
-    }
-}
-@media (min-width:1536px) {
-    .branding{
-        height: 110vh;
-    }
-    .elevations img{
-        width: 18em;
-        top: -53%;
     }
 }
