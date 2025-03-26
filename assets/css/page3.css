@@ -35,6 +35,7 @@
 .navmenu button{
     border: none;
     outline: none;
+    opacity: 1;
     background-color: transparent;
     width: auto;
     font-size: 1em;
