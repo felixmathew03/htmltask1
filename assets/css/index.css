@@ -26,6 +26,7 @@ body{
     top: 3%;
     padding: 12px;
     background: none;
+    scroll-behavior: smooth;
 }
 .line{
     width: 25px;

@@ -28,6 +28,30 @@
     box-sizing: border-box;
     padding-bottom: 4%;
 }
+.navmenu{
+    display: none;
+    width: 30%;
+}
+.navmenu button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: auto;
+    font-size: 1em;
+    font-weight: 700;
+}
+.navmenu a{
+    color: #FFC930;
+    text-decoration: none;
+}
+#twoline{
+    padding: 15px;
+    border-radius: 22px;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 100;
+}
 .top button
 {
 border-radius: 0px;
