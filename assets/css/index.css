@@ -160,9 +160,9 @@ body{
 }
 .child{
     position: absolute;
-    top: -65%;
+    top: -211px;
     left: 23%;
-    width: 22em;
+    width: 350px;
     object-fit: contain;
 }
 .mountains{
