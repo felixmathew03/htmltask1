@@ -158,7 +158,22 @@ border-radius: 0px;
 .rightside h6{
     font-size: 20px;
 }
+@media (max-width:1490px){
+    .navmenu{
+        width: 35%;
+    }
+}
+@media (max-width:1279px){
+    .navmenu{
+        width: 45%;
+    }
+}
 
+@media (max-width:992px){
+    .navmenu{
+        width: 55%;
+    }
+}
 
 @media (max-width: 768px) {
     .container24{
@@ -176,7 +191,9 @@ border-radius: 0px;
     .content h3 {
         font-size: 40px;
     }
-
+    .navmenu{
+        width: 70%;
+    }
     .content h6 {
         font-size: 18px;
     }
