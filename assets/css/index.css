@@ -17,14 +17,14 @@ body{
     position: absolute;
     left: 2%;
     top: 3%;
-    width: 100px;
+    width: 150px;
 }
 .threedots{
     border: 2px solid gray;
     position: absolute;
     right: 2%;
     top: 3%;
-    padding: 12px;
+    padding: 8px;
     background: none;
     scroll-behavior: smooth;
 }
@@ -495,11 +495,11 @@ color: #FFFFFF;
     font-size: 40px ;
     font-weight: 500;
     padding: 3% 0 0 0;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .cll{
-    width: 90%;
-    margin: 5% 0 0 2%;
+    width: 80%;
+    margin: 5% 0 0 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -523,7 +523,7 @@ color: #FFFFFF;
     color: #6d6d6d;
 }
 .cliborder{
-    margin: 5% 0 0 2%;
+    margin: 5% 0 0 5%;
     display: flex;
     gap: 5px;
 }

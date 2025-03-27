@@ -53,20 +53,12 @@
 }
 .twolines{
     border: 2px solid gray;
-    padding: 15px;
-    border-radius: 42px;
+    padding: 8px;
+    border-radius: 12px;
+    color: rgb(175, 175, 175);
+    font-size: 1.2em;
     background: none;
     cursor: pointer;
-}
-.tline{
-    width: 25px;
-    border-bottom: 2px solid gray;  
-}
-.tlf{
-    transform: rotate(45deg);
-}
-.tlr{
-    transform: rotate(-45deg);
 }
 .navSection{
     position: absolute;
@@ -154,14 +146,53 @@
     background: #613B2B 0% 0% no-repeat padding-box;
 }
     /* Mobile Devices*/
-@media only screen and (max-width: 600px) {
+    @media only screen and (min-width: 300px) and (max-width: 474.9px){
+        .logo{
+            left: 1%;
+            top: 3%;
+            width: 50px;
+        }
+        .navmenu{
+            width: 35%;
+            right: 2%;
+            flex-direction: column-reverse;
+            align-items: flex-end;
+            gap: 10px;
+        }
+        .twolines{
+            padding: 8px;
+            border-radius: 50%;
+            font-size: 1.2em;
+            background: none;
+            color: rgb(175, 175, 175);
+            cursor: pointer;
+        }
+        .navfoot{
+            display: none;
+        }
+        .sideman{
+            position: absolute;
+            right: -92px;
+            height: 200px;
+            width: 100px;
+        }
+    }
+@media only screen and (min-width: 475px)   and (max-width: 600px) {
+    .navmenu{
+        width: 72%;
+        top: 5%;
+    }
+    .navmenus{
+        font-size: 0.8em;
+    }
     .navfoot{
         width: 25%;
         height: 25%;
         bottom: 5%;
         right: 2%;
-        font-size: 0.8em;
+        font-size: 0.5em;
     }
+    
     .navfoot li{
         flex-direction: column;
     }
@@ -176,6 +207,9 @@
   
   /* Tablets */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navmenu{
+        width: 60%;
+    }
     .navfoot{
         width: 25%;
         height: 25%;
@@ -194,12 +228,3 @@
     }
   }
   
-  /* Laptops / Small Desktops */
-  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    /* Styles for small desktops or laptops */
-  }
-  
-  /* Large Desktops */
-  @media only screen and (min-width: 1441px) {
-    /* Styles for large desktops */
-  }
